@@ -21,9 +21,19 @@ This project aims to detect facial, hand, and body landmarks in videos using Pyt
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your_username/video-landmark-detection.git
+git clone https://github.com/AsadShibli/openpose.git
 ```
-2. Clone the repository to your local machine:
+2. Install the required dependencies: 
 
 ```bash
-git clone https://github.com/your_username/video-landmark-detection.git
+pip install mediapipe opencv-python
+
+```
+3. Run the Python script and specify the path to the video file(s) you want to analyze:
+
+```bash
+python openpose.py 
+
+
+```
+
