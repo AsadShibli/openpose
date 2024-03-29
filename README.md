@@ -22,3 +22,7 @@ This project aims to detect facial, hand, and body landmarks in videos using Pyt
 
 ```bash
 git clone https://github.com/your_username/video-landmark-detection.git
+2. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your_username/video-landmark-detection.git
