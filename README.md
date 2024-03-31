@@ -1,14 +1,28 @@
-# Video Landmark Detection using Python and MediaPipe
+# Video and Webcam Landmark Detection with MediaPipe
 
-This project aims to detect facial, hand, and body landmarks in videos using Python and the MediaPipe library. It provides a convenient way to analyze multiple videos for key landmarks, enhancing understanding of facial expressions, hand gestures, and body postures.
+This repository contains two Python scripts for detecting facial, hand, and body landmarks using the MediaPipe library. The scripts can be used to process videos or webcam feeds, providing annotated visualizations of detected landmarks.
 
-## Features
+## Files
 
-- Detects facial keypoints, hand gestures, and body poses.
-- Supports the upload and analysis of multiple videos.
-- Utilizes the MediaPipe library for accurate landmark detection.
-- Provides insights into landmark data across various videos.
-- Easy-to-use Python script for landmark detection.
+### openpose.py
+
+This script processes videos stored in the `vid` folder and generates annotated videos in the `output` folder. Each processed video will have facial, hand, and body landmarks overlaid on the frames.
+
+### openpose(webcam).py
+
+This script captures webcam feed and displays real-time annotations of facial, hand, and body landmarks. Users can interactively view the landmarks detected by the script.
+
+## Usage
+
+1. **Video Processing (openpose.py):**
+    - Place the videos you want to process in the `vid` folder.
+    - Run the `openpose.py` script.
+    - Annotated videos will be saved in the `output` folder.
+
+2. **Webcam Feed (openpose(webcam).py):**
+    - Run the `openpose(webcam).py` script.
+    - The webcam feed will display real-time annotations of facial, hand, and body landmarks.
+    - Press 'q' to quit the application.
 
 ## Requirements
 
@@ -16,24 +30,16 @@ This project aims to detect facial, hand, and body landmarks in videos using Pyt
 - MediaPipe library
 - OpenCV
 
-## Usage
+## Folder Structure
 
-1. Clone the repository to your local machine:
+- `vid`: Contains input videos for processing (for `openpose.py`).
+- `output`: Annotated videos will be saved in this folder (for `openpose.py`).
+- No additional folders are required for `openpose(webcam).py`.
 
-```bash
-git clone https://github.com/AsadShibli/openpose.git
-```
-2. Install the required dependencies: 
+## Contributions
 
-```bash
-pip install mediapipe opencv-python
+Contributions are welcome! Feel free to open issues or submit pull requests for any improvements or bug fixes.
 
-```
-3. Run the Python script and specify the path to the video file(s) you want to analyze:
+## License
 
-```bash
-python openpose.py 
-
-
-```
-
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
