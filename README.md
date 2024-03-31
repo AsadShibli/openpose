@@ -40,6 +40,3 @@ This script captures webcam feed and displays real-time annotations of facial, h
 
 Contributions are welcome! Feel free to open issues or submit pull requests for any improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
