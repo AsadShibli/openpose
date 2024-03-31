@@ -9,7 +9,7 @@ This repository contains two Python scripts for detecting facial, hand, and body
 This script processes videos stored in the `vid` folder and generates annotated videos in the `output` folder. Each processed video will have facial, hand, and body landmarks overlaid on the frames.
 
 ### openpose(webcam).py
-
+This script captures webcam feed and displays real-time annotations of facial, hand, and body landmarks. Users can interactively view the landmarks detected by the script.
 
 
 ## Sample Video 
