@@ -10,12 +10,11 @@ This script processes videos stored in the `vid` folder and generates annotated 
 
 ### openpose(webcam).py
 
-This script captures webcam feed and displays real-time annotations of facial, hand, and body landmarks. Users can interactively view the landmarks detected by the script.
+
 
 ## Sample Video 
-[Annotated Video](https://github.com/AsadShibli/openpose/raw/main/output/annotated_gym2.mp4)
+https://github.com/AsadShibli/openpose/assets/119102237/bdaa4e80-8749-4cfb-8253-07ccc9f0c24b
 
-https://github.com/AsadShibli/openpose
 ## Usage
 
 1. **Video Processing (openpose.py):**
